@@ -1,0 +1,74 @@
+* {
+  color: white;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url("sfondo lim.jpg");
+  background-size: 106% 92%;
+  margin: 182px auto;
+  background-repeat: no-repeat;
+}
+/* Intestazione */
+header, nav {
+    color: black;
+    text-align: center;
+    padding: 1px;
+}
+
+nav {
+  background: linear-gradient(to bottom, #00dd01 35%, #ccffcc 100%);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  padding: 6px;
+  width: 96%;
+}
+input {
+  background-color: black;
+  margin: 0;
+  border-radius: 10px;
+  border-color: white;
+}
+#Title {
+    color:#00dd01;
+
+}
+
+
+/* Definizione corpo pagina iniziale*/
+main {
+  padding: 3px;
+  margin: 10px;
+}
+.container {
+  background-color:rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  width: 70%;
+  padding: 41px;
+}
+
+.barra{
+    margin-left: initial;
+    border-radius: 9px 200px 9px 9px;
+}
+
+.orange{
+  color: orange;
+  background: linear-gradient(to bottom, orange 70%, #ccffcc 100%);
+  width:50%;
+}
+
+.green{
+  color: #00dd01;
+  background: linear-gradient(to bottom, #00dd01 77%, #ccffcc 100%);
+  width: 70%;
+}
+
+.red{
+  color: red;
+  background: linear-gradient(to bottom, red 70%, #ccffcc 100%);
+  width: 20%;
+}
